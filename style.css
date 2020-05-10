@@ -1,0 +1,183 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Georgia;
+  background: #ebebea;
+}
+/**********header section***********/
+header i{
+  position: absolute;
+  top:5px;
+  right: 10px;
+  font-size: 17px;
+  color: #9c68b2;
+  background-color:#fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+header .header-back{
+  width:100%;
+  height: 15px;
+  background-color: #894aa3;
+}
+header .form-control{
+  background-color:#ebebea;
+}
+header .header-top nav .navbar-brand{
+  font-size: 27px;
+  color: #666666;
+}
+header .header-top nav .navbar-brand:hover{
+  color: #894aa3;
+}
+header .header-top nav .navbar-brand strong{
+  font-size:45px;
+}
+header .header-top nav .nav-item a{
+  font-size:13px;
+}
+header .header-top nav button{
+  border:none;
+  outline:none;
+}
+/**********middle section***********/
+.middle-slogan i{
+  color:#333;
+  font-size: 22px;
+}
+/****slider******/
+.my-slider{
+  height:520px;
+  background: #000;
+}
+.my-slider .img-fluid{
+  height:520px;
+  opacity: .7;
+}
+.owl-nav button i{
+  color: #666666;
+  font-size:35px;
+}
+.owl-nav button{
+  border:2px solid #666 !important;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background: #000 !important;
+  outline: none;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  top: 50%;
+  left:50px;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  right:10px;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.carousel.owl-carousel.owl-loaded.owl-drag {
+  position: relative;
+}
+.owl-dot {
+  background: #666 !important;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-right: 8px;
+  border:3px solid #666 !important;
+  outline: none !important;
+}
+.owl-dot.active{
+  background-color:transparent !important;
+}
+.owl-dots {
+  position: absolute;
+  bottom:20px;
+  left:30px;
+  transform: translate(50%);
+}
+/*****company******/
+.company-info .media i{
+  font-size:50px;
+  color: #894aa3;
+  transition: 1s;
+}
+.company-info .media i:hover{
+  transform: rotate(1080deg);
+}
+.company-info .media-body p{
+  font-size:15px;
+  color: #666;
+}
+.company-info .media-body h3{
+  color: #894aa3;
+}
+.card-section .card .card-body h3{
+  color: #894aa3;
+}
+.card-section .card .card-body p{
+  font-size:15px;
+  color: #666;
+}
+/**********footer section***********/
+footer p,
+footer a{
+  font-size: 13px;
+  color:#666;
+}
+footer h6{
+  color:#666;
+}
+footer .admin{
+  color:#666;
+  font-size: 11px;
+}
+footer .admin-blog{
+  color:#666;
+  font-size: 12px;
+}
+footer .btn{
+  color:#894aa3;
+  background-color:#ebebea;
+  border: 1px solid #ced4da;
+}
+footer .form-control{
+  background-color:#ebebea;
+}
+footer hr{
+  margin-top:4px;
+  margin-bottom: 4px;
+}
+/**********************responsive section start here******************/
+@media (max-width:500px){
+  header .header-top nav .navbar-brand{
+    font-size: 20px;
+    color: #666666;
+  }
+  header .header-top nav .navbar-brand strong{
+    font-size:38px;
+  }
+  .my-slider{
+    height:400px;
+  }
+  .my-slider .img-fluid{
+    height:400px;
+  }
+  .owl-nav button i{
+    font-size:28px;
+  }
+  .owl-nav button{
+    height: 43px;
+    width: 43px;
+  }
+  .owl-dot {
+    height: 13px;
+    width: 13px;
+    border:2px solid #666 !important;
+  }
+}
